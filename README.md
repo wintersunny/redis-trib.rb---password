@@ -1,6 +1,6 @@
     if you meet a problem like '[ERR] Sorry, can't connect to node ...', 
     when you try to create a redis cluster , 
-    maybe the reason is that the script redis-trib.rb don't support the auth , 
+    maybe the reason is that the script http://download.redis.io/redis-stable/src/redis-trib.rb don't support the auth , 
     you could try this script with parameter [--password] .
         
     # redis-trib.rb---password
